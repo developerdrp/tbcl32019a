@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form name="login" method="POST" action="" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Login</legend>
+           <table border=0 cellpadding=5 cellspacing=10 width=20%>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username" placeholder="Username" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" placeholder="Password" required/></td>
+            </tr>
+            <tr>
+                <td>Remember Me</td>
+                <td>
+                    <input type="checkbox" name="remember" value="1" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" name="submit" value="Login" />
+                    <input type="reset" name="reset" value="Cancel" />
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+
+    <!-- Register Form-->
+<form method="POST" action="" name="register" enctype="multipart/form-data" >
+    <fieldset>
+        <legend>Register</legend>
+        <table border=0 cellpadding=5 cellspacing=5>
+            <tr>
+                <td>User </td>
+                <td> 
+                    <input type="text" name="user" palceholder="Username" required" />
+                </td>
+            </tr>
+            <tr>
+                    <td>Password </td>
+                    <td> 
+                        <input type="password" name="user" palceholder="Password" required" />
+                    </td>
+            </tr>
+
+            <tr>
+                    <td>Email </td>
+                    <td> 
+                        <input type="email" name="email" palceholder="you@domain.com" required" />
+                    </td>
+            </tr>
+
+            <tr>
+                    <td>Gender </td>
+                    <td> 
+                        <input type="radio" name="gender" checked value="M"/>Male
+                        <input type="radio" name="gender" value="F"/>Female
+                        <input type="radio" name="gender" value="O"/>Other
+                    </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td>
+                    <select name="day" size=1>
+                        <option value=1>01</option>
+                        <option value=2>02</option>
+                        <option value=3>03</option>
+                        <option value=31>31</option>
+                    </select>
+                    <select name="month" size=1>
+                        <option value="jan">January</option>
+                        <option value="feb">Febuary</option>
+                        <option value="mar" selected>March</option>
+                        <option value="dec">December</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Courses</td>
+                <td>
+                    <input type="checkbox" name="php" value="php" checked>Php
+                    <input type="checkbox" name="asp" value="asp" >ASP
+                    <input type="checkbox" name="java" value="java" >Java
+                </td>
+            </tr>
+            <tr>
+                <td>File</td>
+                <td>
+                    <input type="file" name="upload" />
+                </td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td>
+                    <textarea name="message" rows=5 cols=30>
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" name="submit" value="Register" />
+                    <input type="reset" name="reset" value="Cancel" />
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>    
+</body>
+</html>
