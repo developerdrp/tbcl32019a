@@ -1,0 +1,25 @@
+
+  /* type selector */
+  body{
+    background-image:url('../images/bg.jpg'); 
+    background-repeat:no-repeat;
+ }
+ /* ID selector */
+ #container{
+    width:1140px; 
+    min-height:1000px; 
+    margin:auto auto; 
+    border-left:10px Groove #ccffee; 
+    border-right:4px solid #cceeff;
+ }
+ /* Class Selector */
+ .myheading{
+     font-size: 30px;
+     font-weight:900;
+     border-bottom:2px solid #cc55ee;
+     color:#cc55ee;
+ }
+
+ h1{
+     color:blue;
+ }
