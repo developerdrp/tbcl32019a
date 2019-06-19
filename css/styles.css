@@ -1,0 +1,29 @@
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url('../images/bg1.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container{
+    width:1140px;
+    min-height:1000px;
+    background-color: #fcfcfc;
+    border:3px solid #dcdcdc;
+    border-radius:0px 30px 0px 30px;
+    margin:auto auto;
+}
+
+.row{min-height:10px;}
+.col100{width: 100%;min-height:30px;}
+.col50{width:50%;min-height:30px;float:left;}
+.col25{width:25%; min-height:30px;float:left;}
+.col75{width:75%; min-height:30px;float:left;}
+.clear{clear:both;}
