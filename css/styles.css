@@ -27,3 +27,33 @@ body{
 .col25{width:25%; min-height:30px;float:left;}
 .col75{width:75%; min-height:30px;float:left;}
 .clear{clear:both;}
+
+.welcome{
+    font-family: 'Tangerine', serif;
+        font-size: 48px;
+        font-variant:small-caps;
+}
+
+.myp{
+    font-family: 'Unica One';
+    font-size: 22px;
+    color:#000099;
+}
+
+#banner{
+    background-image:url('../images/banner.png');
+    background-repeat:no-repeat;
+    min-height:150px;
+}
+.sitetitle{
+    font-family: 'Unica One';
+    font-size: 40px;
+    color:#ffffff;
+    font-variant: small-caps;
+    text-shadow: 3px;
+    margin-left:50px;
+    margin-top:10px;
+}
+.sitetitle:hover{
+    color:#ffccdd;
+}
