@@ -1,4 +1,7 @@
-
+*{
+    margin:0px;
+    padding:0px;
+}
   /* type selector */
   body{
     background-image:url('../images/bg.jpg'); 
@@ -7,7 +10,7 @@
  /* ID selector */
  #container{
     width:1140px; 
-    min-height:1000px; 
+    min-height:1500px; 
     margin:auto auto; 
     border-left:10px Groove #ccffee; 
     border-right:4px solid #cceeff;
@@ -22,4 +25,59 @@
 
  h1{
      color:blue;
+ }
+
+ #fixedmenu{
+    position:fixed;
+     z-index: 9999;
+ }
+
+ #topmenu{
+    background-color: #000000;
+    width:1140px;
+    min-height:60px;
+ }
+
+ #topmenu ul
+ {
+    list-style-type: none;
+    float:right;
+ }
+
+ #topmenu ul li{
+    display:inline;
+    margin:5px;
+    padding:5px;
+    color:#ffffff;
+    font-size:20px;
+    font-weight: 300;
+    font-variant: small-caps;
+ }
+
+
+ #fixedsocial{
+    position:fixed;
+    top:300px;
+    right:0px;
+    width:75px;
+    height:200px;
+    border:2px solid #ff0000;
+    border-radius:20px 0px 0px 20px;
+     z-index: 9999;
+ }
+
+ #fixedsocial ul
+ {
+    list-style-type: none;
+ }
+ #fixedsocial ul li{
+    display:block;
+     padding: 15px
+ }
+
+ #maincontent
+ {
+    position:absolute;
+    top:80px;
+     z-index: 999;
  }
