@@ -9,7 +9,24 @@ body{
 	font-weight:900;
 
 }
+.menu{
+	width:100%;
+	background-color: #00ccee;
+	min-height:50px;
+	box-shadow: 5px 5px 10px #999;
+}
+.menu ul{
+	list-style-type: none;
+	margin-top: 20px;
+}
+.menu ul li{
+	display:inline;
+	padding:15px;
+}
 
+.menu ul li:hover{
+	background-color: rgba(255, 0, 0, 0.4);
+}
 #container{
 	width:1140px;
 	min-height:800px;
