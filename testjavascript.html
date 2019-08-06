@@ -6,7 +6,17 @@
 	<meta name="author" content="Your Name" />
 
 </head>
-<body>
+<body onload="currentDate()">
+	<div id="date" style="float:right" ></div>
+
+
+	<div id="time" style="float:right" >
+		<span id="hh"></span>:
+		<span id="mm"></span>:
+		<span id="ss"></span>
+	</div>
+
+
 	<div id="errormsg"></div>
 	<form name="login" method="post" action="" enctype="multipart/form-data" onsubmit="return validate()">
 		<input type="text" name="username" placeholder="Username" />
@@ -16,5 +26,6 @@
 		<input type="submit" name="submit" value="login">
 	</form>
 	<script src="js/form.js"></script>
+
 </body>
 </html>
